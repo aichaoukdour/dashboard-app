@@ -1,0 +1,17 @@
+/* Conteneur des widgets pour les afficher horizontalement */
+.widgets-container {
+  background-color: rgb(254, 254, 254);
+  display: flex; /* Utilisation de flexbox pour afficher horizontalement */
+  justify-content: space-between; /* Distribution égale des widgets */
+  gap: -5px; /* Réduire l'espace entre les widgets */
+  width: 55%; /* Largeur du conteneur des widgets (50% de la page) */
+  margin-left: 70px; /* Espacement entre le conteneur et la sidebar */
+  margin-top: 5px; /* Marge en haut */
+  margin-bottom: 20px; /* Marge en bas */
+  flex-wrap: nowrap; /* Empêche les widgets de passer à la ligne suivante */
+  overflow-x: auto; /* Permet un défilement horizontal si nécessaire */
+
+  border-radius: 15px;
+  box-shadow: 0 10px 20px #0d00fcf8;
+  
+}

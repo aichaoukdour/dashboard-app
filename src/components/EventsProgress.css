@@ -1,0 +1,17 @@
+.events-progress {
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    width: 100px;
+    border-radius: 8px;
+    text-align: center;
+    color: rgb(231, 228, 228);
+    margin-left: 70px;
+    box-shadow: 0 10px 20px #0b03fff4;
+ 
+  }
+  
+  .events-progress p {
+    margin-top: 5px;
+    color: #ccc;
+  }
+  

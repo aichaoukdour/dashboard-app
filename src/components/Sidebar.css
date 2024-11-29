@@ -1,0 +1,89 @@
+/* Sidebar Container */
+.sidebar {
+  width: 150px;
+  height: 100vh;
+  background-color: #0000ff;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  transition: width 0.3s ease;
+  overflow: hidden;
+  position: fixed; /* Fix the sidebar to the left */
+  left: 0;
+}
+
+/* Collapsed Sidebar */
+.sidebar.collapsed {
+  width: 60px;
+}
+
+/* Toggle Button */
+.toggle-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  background-color: #0000ff;
+  color: #ffffff;
+}
+
+.toggle-btn:hover {
+  background-color: #475569;
+}
+
+/* Sidebar Logo */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 20px;
+  transition: opacity 0.3s ease, font-size 0.3s ease;
+}
+
+.sidebar.collapsed .logo {
+  font-size: 1rem;
+  text-align: center;
+  margin: 10px;
+}
+
+/* Sidebar Menu */
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.sidebar ul li {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, padding 0.3s ease;
+}
+
+.sidebar ul li:hover {
+  background-color: #475569;
+}
+
+/* Sidebar Menu Icons */
+.sidebar ul li svg {
+  margin-right: 15px;
+  transition: margin-right 0.3s ease;
+}
+
+.sidebar.collapsed ul li svg {
+  margin-right: 0;
+  justify-content: center;
+}
+
+/* Sidebar Menu Text */
+.sidebar ul li span {
+  white-space: nowrap;
+  transition: opacity 0.3s ease;
+}
+
+.sidebar.collapsed ul li span {
+  display: none;
+}

@@ -1,0 +1,41 @@
+.plans-progress {
+  background-color: #252540;
+  padding: 18px;
+  border-radius: 8px;
+  width: 40%;
+  color: white;
+  margin-left: 18%;
+  margin-top: -14.3%;
+
+  box-shadow: 0 4px 10px #0400fff6;
+}
+
+.plans-progress label {
+  display: block;
+  margin-bottom: 5px;
+  color: #a9b7fc;
+}
+
+.progress {
+  background-color: hsl(240, 32%, 31%);
+  border-radius: 5px;
+  overflow: hidden;
+  height: 10px;
+  margin-bottom: 15px;
+}
+
+.progress-bar {
+  height: 100%;
+}
+
+.consultations-progress {
+  background-color: #ff5722; /* Orange vif */
+}
+
+.laboratory-progress {
+  background-color: #4caf50; /* Vert vif */
+}
+
+.meetings-progress {
+  background-color: #2196f3; /* Bleu vif */
+}

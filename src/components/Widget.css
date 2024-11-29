@@ -1,0 +1,40 @@
+/* Individual widget styles */
+.widget {
+  background-color: #252540;
+  color: white;
+  padding: 9px;
+  border-radius: 8px;
+  width: 200px;
+  text-align: center;
+  
+  box-shadow: 0 4px 8px #0d00ff;
+  transition: transform 0.2s ease-in-out;
+ 
+  margin-left: 0px;
+}
+
+/* Hover effect for widgets */
+.widget:hover {
+  transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+/* Widget title styling */
+.widget h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #a9b7fc; /* Light blue color for titles */
+}
+
+/* Widget value styling */
+.widget p {
+  font-size: 24px;
+  margin: 0;
+  font-weight: bold;
+}
+
+/* Widget description styling */
+.widget span {
+  display: block;
+  margin-top: 10px;
+  color: #aaa; /* Light gray for descriptions */
+}
