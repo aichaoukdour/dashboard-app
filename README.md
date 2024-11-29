@@ -51,7 +51,7 @@ Perfect for professionals who need a simple, elegant way to manage their schedul
 ### 🔧 Steps to Run Locally:  
 1. Clone the Repository:  
    
-   git clone https://github.com/your-username/your-repository-name.git
+   git clone (https://github.com/aichaoukdour/dashboard-app.git)
  
 2. Install Dependencies:  
    ```bash
